@@ -1,0 +1,12 @@
+__pycache__/
+.cache/
+.DS_Store
+.venv/
+*.dSYM/
+build*/
+compile_commands.json
+data/.sift_ready
+data/*.tar.gz
+data/sift*/
+main
+main_asan
