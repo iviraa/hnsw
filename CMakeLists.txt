@@ -25,5 +25,8 @@ target_compile_options(vecsearch PRIVATE -Wall -Wextra)
 add_executable(test tests/test.cpp)
 target_link_libraries(test PRIVATE vecsearch)
 
+add_executable(bench bench/bench.cpp)
+target_link_libraries(bench PRIVATE vecsearch)
+
 add_executable(draw tools/draw.cpp)
 target_link_libraries(draw PRIVATE vecsearch)
