@@ -30,3 +30,6 @@ target_link_libraries(bench PRIVATE vecsearch)
 
 add_executable(draw tools/draw.cpp)
 target_link_libraries(draw PRIVATE vecsearch)
+
+add_executable(trace tools/trace.cpp)
+target_link_libraries(trace PRIVATE vecsearch)
